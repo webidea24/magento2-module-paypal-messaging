@@ -1,0 +1,14 @@
+<?php
+/** @var \Webidea24\PayPalMessaging\Block\MessagingBanner $block */
+?>
+<div class="paypal-messaging" data-bind="scope: 'paypalMessaging'">
+    <!-- ko template: getTemplate() --><!-- /ko -->
+    <script type="text/x-magento-init">
+        {
+            ".paypal-messaging": {
+                "Magento_Ui/js/core/app": <?= /* @noEscape */ $block->getJsLayout() ?>
+            }
+        }
+
+    </script>
+</div>

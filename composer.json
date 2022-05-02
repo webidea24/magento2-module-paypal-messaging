@@ -1,0 +1,16 @@
+{
+    "name": "webidea24/magento2-module-paypal-messaging",
+    "description": "Magento 2 Module: Display PayPal messaging container (on product page) without required paypal settings",
+    "type": "magento2-module",
+    "require": {
+        "magento/module-paypal": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Webidea24\\PayPalMessaging\\": ""
+        }
+    }
+}
